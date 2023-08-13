@@ -1,0 +1,51 @@
+name: shopy
+description: A new Flutter project.
+# publish_to: "none" # Remove this line
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.1
+  flutter_svg: ^2.0.7
+  google_fonts: ^5.1.0
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+  #   - images/a_dot_ham.jpeg
+# run: flutter clean && flutter pub get && flutter pub run flutter_native_splash:create
+# flutter_native_splash:
+#   color: "#1152FD"
+#   image: assets/img/logo.png
+#   android: true
+#   ios: true
+#   android_12:
+#     image: assets/img/logo.png
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/img/new_logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter_native_splash:
+  color: "#1152FD"
+  image: assets/img/logo.png
+  android: true
+  ios: true
+  web: false
+  android_12:
+    image: assets/img/logo.png
+  fullscreen: true
