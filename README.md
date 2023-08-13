@@ -19,4 +19,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ![screenshoot](screenshoot/Screenshot%202023-08-14%20at%2000.21.00.png)
 
-Develop By : refana78
+Design By : [Luka Marjanovic](https://www.figma.com/community/file/969625581632112985/Shopy---Free-UI-Kit)
